@@ -44,5 +44,5 @@ export async function dividirSeguro(a, b) {
     throw new Error('Divisão por zero');
   }
 
-  return a / b;
+  return a / b
 }
